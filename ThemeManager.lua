@@ -5,7 +5,7 @@ local ThemeManager = {} do
 
 	ThemeManager.Library = nil
 	ThemeManager.BuiltInThemes = {
-		['Xero Hub']         = { 5, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"30333b","AccentColor":"ff0c6","BackgroundColor":"1a1c20","OutlineColor":"ff0bf"}') },
+		['Small Green']         = { 5, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"30333b","AccentColor":"ff0c6","BackgroundColor":"1a1c20","OutlineColor":"ff0bf"}') },
 		['Green'] 			= { 2, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"141414","AccentColor":"00ff8b","BackgroundColor":"1c1c1c","OutlineColor":"3c3c3c"}') },
 		['Jester'] 			= { 3, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"242424","AccentColor":"db4467","BackgroundColor":"1c1c1c","OutlineColor":"373737"}') },
 		['Mint'] 			= { 4, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"242424","AccentColor":"3db488","BackgroundColor":"1c1c1c","OutlineColor":"373737"}') },
